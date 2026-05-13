@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Daily Hobby</title>
+
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color:white;
+    }
+
+    header{
+      text-align:center;
+      padding:40px;
+      background: rgba(0,0,0,0.3);
+    }
+
+    header h1{
+      font-size:50px;
+      margin-bottom:10px;
+    }
+
+    .container{
+      width:90%;
+      margin:auto;
+      padding:20px;
+    }
+
+    .card{
+      background: rgba(255,255,255,0.1);
+      padding:20px;
+      margin:20px 0;
+      border-radius:15px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.3);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:scale(1.03);
+    }
+
+    img{
+      width:100%;
+      border-radius:10px;
+      margin-top:15px;
+    }
+
+    footer{
+      text-align:center;
+      padding:15px;
+      background: rgba(0,0,0,0.3);
+      margin-top:30px;
+    }
+
+    button{
+      padding:10px 20px;
+      border:none;
+      border-radius:10px;
+      background:#00c6ff;
+      color:white;
+      font-size:16px;
+      cursor:pointer;
+      margin-top:10px;
+    }
+
+    button:hover{
+      background:#0072ff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Daily Hobby</h1>
+    <p>Gaming and Enjoying Life Everyday 🎮✨</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>🎮 Gaming Time</h2>
+      <p>
+        One of my favorite hobbies is playing online and offline games.
+        Gaming helps me relax, enjoy, and have fun with friends.
+      </p>
+
+      <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop" alt="Gaming">
+
+      <button onclick="showMessage()">Click Me</button>
+    </div>
+
+    <div class="card">
+      <h2>🌅 Enjoying Life</h2>
+      <p>
+        I also enjoy spending time outside, relaxing, listening to music,
+        and enjoying peaceful moments every day.
+      </p>
+
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop" alt="Enjoying">
+    </div>
+
+  </div>
+
+  <footer>
+    <p>Created with ❤️ using HTML & CSS</p>
+  </footer>
+
+  <script>
+    function showMessage(){
+      alert("Enjoy your hobbies and have fun every day! 🎮");
+    }
+  </script>
+
+</body>
+</html>
